@@ -1,6 +1,12 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+*{
+    margin: 0:
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Poppins, sans-serif;
     background:#f4f7fc;
@@ -92,10 +98,8 @@ footer a:hover {
     }
 
     input {
-        width: 250px;
-        max-width: 300px;
-        padding: 10px;
-        box-sizing: border-box;
+        padding:14px;
+        width: 100%;
     }
 
     button {
@@ -121,9 +125,9 @@ footer a:hover {
         gap: 10px;
     }
     
-    label {
+/*label {
         margin: 0;
         padding: 0;
-    }
+    }*/
 }
     
