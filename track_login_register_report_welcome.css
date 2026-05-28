@@ -30,6 +30,7 @@ button{
     color:white;
     border:none;
     border-radius:5px;
+    display: inline-block;
 }
 
 button:hover{
@@ -93,7 +94,7 @@ footer a:hover {
     input {
         width: 100%;
         max-width: 300px;
-        margin: 10px auto;
+        margin: 0;
         display: block;
         padding: 10px;
     }
@@ -116,12 +117,15 @@ footer a:hover {
     }
 
     form {
-        padding: 10px;
+        display:flex;
+        flex-decoration: column;
+        align-items: center;
+        gap: 10px;
     }
     
     label {
-        display: block;
-        margin-bottom: 5px;
+        margin: 0;
+        padding: 0;
     }
 }
     
