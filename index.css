@@ -1,0 +1,219 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+/* Header */
+header{
+   background:linear-gradient(135deg,#2563eb,#1e40af);
+    color:white;
+    padding:15px 0;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    margin:10px;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+/* Section Styling */
+section{
+    padding:50px 20px;
+}
+
+/* Hero Section */
+section h1{
+   font-size:27px;
+    margin-bottom:15px;
+}
+
+section p{
+    font-size:16px;
+    margin-bottom:15px;
+}
+
+/* Button */
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:#22c55e;
+    color:white;
+   font-size:16px;
+}
+
+button:hover{
+    background:#16a34a;
+    transform:scale(1.05);
+    transition: 0.3s;
+}
+
+/* Statistics Section */
+section h3{
+    margin-top:20px;
+    color:#1e40af;
+}
+
+section h3 + p{
+    font-size:22px;
+    font-weight:600;
+    color:#333;
+}
+.card {
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+/*Report Issues*/
+.issue-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.issue-card {
+    background: white;
+    width: 220px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.issue-card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+    background: #0057ff;
+    color: white;
+}
+
+
+/*Why choose our platform*/
+.why-box {
+    background: white;
+    width: 350px;
+    margin: 15px auto;
+    padding: 15px;
+    border-left: 6px solid #0057ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/*How its work*/
+.step-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.step {
+    background: #0057ff;
+    color: white;
+    width: 220px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.step span{
+    background: white;
+    color: #0057ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+    margin-bottom: 15px;
+}   
+
+.card {
+background: white;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+width: 200px;
+text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav{
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.hero{
+    padding: 100px 20px;
+}
+
+/* Footer */
+
+footer {
+    background: linear-gradient(to right,#1565c0,#42a5f5);
+    color: white;
+    padding: 25px 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-container {
+    width: 250px;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+}
+
+footer p{
+    margin: 8px 0;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: yellow;
+}

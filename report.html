@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Issue</title>
+  <link rel="stylesheet" href="track_login_register_report_welcome.css">
+</head>
+
+<body>
+
+<center>
+<!-- Header -->
+
+<header>
+<h1>Report Civic Issue</h1>
+<p>Submit your civic complaints easily</p>
+</header>
+
+<!-- Form sections -->
+
+  <h2>Complaint Form</h2>
+
+  <!-- Name -->
+<input type="text" id="name" placeholder="Enter Your Full Name" required>
+<br><br>
+
+<!-- Mobile -->
+<input type="text" id="mobile" placeholder="Enter Your Mobile Number" required>
+<br><br>
+
+<!-- Issue Title -->
+<input type="text" id="title" placeholder="Issue Title" required>
+<br><br>
+
+<!-- Category -->
+
+<select id="category" style="width: 280px; height: 30px;" required>
+  <option value="">Select Category</option>
+  <option>🛣️ Road Damage</option>
+  <option>🗑️ Garbage Issue</option>
+  <option>🚰 Water Problem</option>
+  <option>💡 Street Light</option>
+  <option>⚡ Electricity</option>
+  <option>🛠️ Drainage Blockage</option>
+  <option>📌 Other Issue</option>
+</select>
+
+<br><br>
+
+<!-- Description -->
+<textarea id="description" placeholder="Description" rows="4" cols="35" required></textarea>
+
+<br><br>
+
+<!-- Location -->
+<input type="text" id="location" placeholder="Location" required>
+<br><br>
+
+<!-- Image Upload -->
+<label><b>Upload Image</b></label>
+<br><br>
+<input type="file" id="image">
+<br><br>
+
+<!-- Buttons-->
+<button type="button" onclick="submitComplaint()">Submit Complaint</button>
+
+<!-- Message -->
+<h3 id="msg" style="color: green;"></h3>
+
+<a href="index.html"><button>Back</button></a>
+
+<hr>
+
+
+<!-- 🔵 Footer -->
+<footer>
+  
+<p>Civic Issue Reporting Tool</p>
+ <p>Helping citizens report civic problems easily</p> 
+ <p><a href="index.html">Home</a> | <a href="services.html">Services</a> | <a href="track.html">Track Complaint</a> | <a href="login.html">Login/Register</a>
+ </p>
+  <p>📧 support@civicapp.com</p>
+   <p>📞 +91 9792880XXX</p>
+  <p>© 2026 Civic Issue Reporting Tool</p>
+    
+</footer>
+</center>
+
+<script type="module" src="report.js"></script>
+
+</body>
+</html>
