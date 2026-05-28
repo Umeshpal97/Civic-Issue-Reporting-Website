@@ -98,8 +98,8 @@ footer a:hover {
     }
 
     input {
-        padding:10px;
-        width: 250px;
+        padding:5px;
+        width: 200px;
     }
 
     button {
@@ -122,7 +122,7 @@ footer a:hover {
         display:flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
     }
     
 /*label {
