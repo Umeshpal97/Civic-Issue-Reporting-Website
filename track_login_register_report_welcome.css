@@ -25,13 +25,6 @@ h2{
     color:#1e40af;
 }
 
-input{
-    padding:10px;
-    width:250px;
-    gap: 30px;
-    flex-direction: column;
-}
-
 button{
     padding:10px 20px;
     background:#22c55e;
@@ -47,10 +40,23 @@ button:hover{
 }
 
 .track-box {
-    border: 2px solid #ccc;
-    padding:20px;
+    width:fit-content;
+    max-width:90%;
+    margin:40px auto;
+    padding:30px 40px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
 }    
-
+.track-box input{
+   /* padding:10px;*/
+    width:300px;
+    /*gap: 30px;*/
+    /*flex-direction: column;*/
+    box-sizing:border-box;
+    max-width:100%;
+}
+    
 /* Footer */
 
 footer {
