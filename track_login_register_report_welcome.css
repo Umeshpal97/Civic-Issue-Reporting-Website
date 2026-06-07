@@ -13,7 +13,9 @@ body{
 }
 
 .track-box h1{
-    font-size:32px;
+    font-size:30px;
+    white-space:nowrap;
+    margin-bottom:20px;
     font-weight:700;
 }   
 
