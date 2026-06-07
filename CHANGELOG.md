@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file.
 - Refined form alignment and spacing
 - Updated authentication page navigation links
 - Improved form labels and user instructions
+- <hr>
 
 🛠️ Changes
 
@@ -31,7 +32,7 @@ All notable changes to this project will be documented in this file.
 - "New here? Sign Up"
 
 ✅ Improved overall visual consistency across pages
-
+<hr>
 🎨 UI/UX Enhancements
 
 - Better spacing and alignment
@@ -39,13 +40,13 @@ All notable changes to this project will be documented in this file.
 - Improved readability
 - Modernized card-based interface
 - Enhanced mobile responsiveness
-
+<hr>
 🐞 Fixed
 
 - Fixed heading wrapping issues on smaller screens
 - Improved input field sizing and layout behavior
 - Fixed responsive design inconsistencies
-
+<hr style:color:red;>
 ---
 
 🚀 Version 1.0
