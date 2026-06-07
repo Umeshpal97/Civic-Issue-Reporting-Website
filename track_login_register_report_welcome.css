@@ -46,6 +46,11 @@ button:hover{
     transform:scale(1.05);
 }
 
+.track-box {
+    border: 2px solid #ccc;
+    padding:20px;
+}    
+
 /* Footer */
 
 footer {
