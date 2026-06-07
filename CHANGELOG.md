@@ -14,7 +14,7 @@ All notable changes to this project will be documented in this file.
 - Refined form alignment and spacing
 - Updated authentication page navigation links
 - Improved form labels and user instructions
-- <hr>
+ <hr>
 
 🛠️ Changes
 
@@ -49,7 +49,7 @@ All notable changes to this project will be documented in this file.
 <hr style:color:red;>
 ---
 
-🚀 Version 1.0
+<p><b><span style="color:red;">🚀 Version 1.0</span></b></p>
 
 ✨ Added
 
