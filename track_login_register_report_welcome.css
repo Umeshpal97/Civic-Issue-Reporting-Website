@@ -12,6 +12,11 @@ body{
     background:#f4f7fc;
 }
 
+.track-box h1{
+    font-size:32px;
+    font-weight:700;
+}   
+
 h1{
     background: linear-gradient(135deg, #1e3a8a, #2563eb);
     color: white;
