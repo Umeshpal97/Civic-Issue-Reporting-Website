@@ -4,6 +4,50 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+🚀 Version 1.1
+
+✨ Improved
+
+- Enhanced Complaint Tracking Page UI
+- Improved responsive design for mobile and desktop devices
+- Added card-style layout with shadow effects for better user experience
+- Refined form alignment and spacing
+- Updated authentication page navigation links
+- Improved form labels and user instructions
+
+🛠️ Changes
+
+✅ Replaced redundant "Track Your Complaint" heading with a clearer instruction message
+
+✅ Added mandatory field indicator (*) for required inputs
+
+✅ Improved mobile number tracking form design
+
+✅ Enhanced input field responsiveness across different screen sizes
+
+✅ Updated login and registration page links:
+
+- "Have an account? Sign In"
+- "New here? Sign Up"
+
+✅ Improved overall visual consistency across pages
+
+🎨 UI/UX Enhancements
+
+- Better spacing and alignment
+- Cleaner form presentation
+- Improved readability
+- Modernized card-based interface
+- Enhanced mobile responsiveness
+
+🐞 Fixed
+
+- Fixed heading wrapping issues on smaller screens
+- Improved input field sizing and layout behavior
+- Fixed responsive design inconsistencies
+
+---
+
 🚀 Version 1.0
 
 ✨ Added
