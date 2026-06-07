@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-🚀 Version 1.1
+<p><b>🚀 Version 1.1</b></p>
 
 ✨ Improved
 
@@ -49,7 +49,7 @@ All notable changes to this project will be documented in this file.
 <hr style:color:red;>
 ---
 
-<p><b><span style="color:red;">🚀 Version 1.0</span></b></p>
+<p><b>🚀 Version 1.0</b></p>
 
 ✨ Added
 
